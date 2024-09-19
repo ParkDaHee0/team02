@@ -942,6 +942,7 @@ body.sub04 {
   background: var(--btn_bg);
   color: var(--main_blue);
   border-radius: 10px;
+  font-size:1.6rem
 }
 
 
@@ -994,6 +995,7 @@ body.sub04 {
 .sub0401_modal_btn button {
   padding: 12px 0;
   width: calc(100% - 16px);
+  font-size:1.6rem
 }
 
 .sub0401_modal_btn button:nth-of-type(1) {
