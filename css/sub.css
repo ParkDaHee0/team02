@@ -837,7 +837,7 @@ body.sub04 {
 .sub04_content li:nth-child(2) {
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 4px 0;
+  padding: 4px 0 12px;
 }
 
 
