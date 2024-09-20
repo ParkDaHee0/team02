@@ -158,6 +158,10 @@
   .sub02_calendar_inner {
     padding: 20px 0;
   }
+
+  .sub02_calendar_btn p {
+    font-size:1.8rem
+  }
 }
 
 /*sub0201*/
@@ -427,6 +431,14 @@
   .sub05_tit.active05 {
     padding-bottom: 0;
   }
+
+  .sub05_calendar_btn p{
+    font-size:1.8rem
+  }
+
+  .sub05_calendar_btn p a{
+    font-size:1.8rem
+  }
 }
 
 /* sub0501 */
@@ -494,6 +506,14 @@
 
   .sub06_tit.active06 {
     padding-bottom: 0;
+  }
+
+  .sub06_calendar_btn p {
+    font-size:1.8rem
+  }
+
+  .sub06_calendar_btn p a {
+    font-size:1.8rem
   }
 }
 
