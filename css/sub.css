@@ -3738,12 +3738,13 @@ h2 {
 }
 
 .sub0602_tit {
-  padding: 24px 16px 0;
+  padding: 24px 16px;
   border-radius: 10px;
   background: #fff;
 }
 
 .sub0602_tit.active06 {
+  padding: 24px 16px 0;  
   border-radius: 10px 10px 0 0;
 }
 
