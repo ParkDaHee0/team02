@@ -425,9 +425,9 @@ td {
 .recent_table tr th:last-child::before {
   content: "09.06(금)";
   display: block;
-  padding: 4px 8px;
+  padding: 4px 12px;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   height: 24px;
   color: var(--main_blue);
   background: var(--btn_bg);
