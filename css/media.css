@@ -160,7 +160,7 @@
   }
 
   .sub02_calendar_btn p {
-    font-size:1.8rem
+    font-size: 1.8rem
   }
 }
 
@@ -432,12 +432,12 @@
     padding-bottom: 0;
   }
 
-  .sub05_calendar_btn p{
-    font-size:1.8rem
+  .sub05_calendar_btn p {
+    font-size: 1.8rem
   }
 
-  .sub05_calendar_btn p a{
-    font-size:1.8rem
+  .sub05_calendar_btn p a {
+    font-size: 1.8rem
   }
 }
 
@@ -509,11 +509,11 @@
   }
 
   .sub06_calendar_btn p {
-    font-size:1.8rem
+    font-size: 1.8rem
   }
 
   .sub06_calendar_btn p a {
-    font-size:1.8rem
+    font-size: 1.8rem
   }
 }
 
@@ -627,11 +627,12 @@
     top: 50%;
     left: 50%;
     width: 100%;
+    height: 100vh;
     transform: translate(-50%, -50%);
   }
 
   .sub0902_tit {
-    padding: 0 0 44px;
+    padding: 150px 0 40px;
   }
 
   .sub0902_txt_box {
@@ -829,12 +830,12 @@
 }
 
 /*마이페이지 코치마크 수정*/
-@media(min-width:560px){
-  .coatch09_guide{
+@media(min-width:560px) {
+  .coatch09_guide {
     top: 260px
   }
 
-  .coatch09_detail{
+  .coatch09_detail {
     top: 400px
   }
 }
