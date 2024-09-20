@@ -62,10 +62,11 @@ $(function () {
   $(".sub05_list").hide();
   $(".sub05_wrap").click(function () {
     $(this).find(".sub05_list").slideToggle();
-    $(this).siblings().find(".sub05_list").slideUp();
+    // $(this).siblings().find(".sub05_list").slideUp();
     $(this).find(".sub05_tit li span").toggleClass("active05");
     $(this).find(".sub05_tit").toggleClass("active05");
   });
+
   /* sub05데이트피커 */
   $(".sub05_calendar").hide();
   $("#sub05_content .common_date_box div a").click(function () {
@@ -110,13 +111,13 @@ $(function () {
 
   /* sub06(입금내역) */
   $(".sub06_list").hide();
-  $(".sub06_tit").click(function () {
-    $(this).toggleClass("active06");
-    $(this).parent().find(".sub06_tit li:nth-child(1) p span")
-    $(this).parent().find(".sub06_list").slideToggle();
+  $(".sub06_wrap").click(function () {
+    $(this).find(".sub06_list").slideToggle();
+    // $(this).siblings().find(".sub06_list").slideToggle();
+    $(this).find(".sub06_tit li span").toggleClass("active06");
     $(this).find(".sub06_tit").toggleClass("active06");
-
   });
+
 
   /* sub06데이트피커 */
   $(".sub06_calendar").hide();
@@ -210,6 +211,7 @@ $(function () {
   $(".coatch01").click(function () {
     $(this).fadeOut();
   });
+
   $(".coatch02").click(function () {
     $(this).fadeOut();
   });
