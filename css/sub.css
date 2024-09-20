@@ -1073,7 +1073,7 @@ body.sub04 {
 
 }
 
-.sub05_tit>li:nth-child(1) p span.active05_arrow {
+.sub05_tit>li:nth-child(1) p span.active05 {
   display: inline-block;
   width: 10px;
   height: 10px;
