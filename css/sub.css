@@ -3910,3 +3910,20 @@ h2 {
   border: 1px solid var(--line_ccc);
   background: var(--main_blue);
 }
+
+/*sub0902 버튼 추가*/
+.sub0902_pw_btn {
+  max-width: 400px;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 32px);
+  background-color: #fff;
+  padding: 16px 0;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #666;
+  border-radius: 10px;
+  border: 1px solid var(--line_ccc);
+}
