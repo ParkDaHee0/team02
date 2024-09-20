@@ -7,8 +7,8 @@ $(function () {
 
   //sub02
   $(".recent_list_tit").click(function () {
-    $(this).toggleClass("on").delay(4000)
-    $(this).parent().find(".recent_arrow").toggleClass("active02")
+    $(this).toggleClass("on");
+    $(this).parent().find(".recent_arrow").toggleClass("active02");
     $(this).parent().find(".recent_list_table").slideToggle();
     $(this).parent().find(".recent_list01_table").slideToggle();
   })
