@@ -2829,7 +2829,7 @@ body.sub04 {
   width: 99%;
   position: absolute;
   left: 50%;
-  top: 400px;
+  top: 370px;
   transform: translateX(-50%);
   border: 1px dashed var(--main_blue);
   border-radius: 10px;
