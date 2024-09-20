@@ -827,3 +827,14 @@
     max-width: 768px;
   }
 }
+
+/*마이페이지 코치마크 수정*/
+@media(min-width:560px){
+  .coatch09_guide{
+    top: 260px
+  }
+
+  .coatch09_detail{
+    top: 400px
+  }
+}
